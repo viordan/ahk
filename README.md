@@ -34,9 +34,13 @@ Now if I want to write a macro to do just that I will open up my trusty editor (
 Save the script
 
 >run, notepad.exe
+
 >Sleep, 1000
+
 >send, Hello World
+
 >end, {Enter 2}
+
 >send, Welcome to automation!
 
 The one line here that stands out is sleep, 1000, that basically tells the macro to wait 1 second which works, but imagine you’re running this on a computer that takes 2 seconds to open notepad, or 5 seconds.  Using any sort of time delay in automation is the least elegant way of doing things.  It will work in that instance on that computer.  A much better way to write this is if the computer somehow told us when notepad.exe was ready after we execute it. 
