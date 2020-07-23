@@ -15,7 +15,7 @@ The expectation of this tutorial is that you have looked at code before, but you
 
 I will use autohotkey vs 1.1.33.00 released June 29th, 2020.  You can download it from https://autohotkey.com.   In my experience, for a Windows environment AutoHotkey (henceforth AHK) is by far the best tool.
 
-For an editor you can use VS Code with the autohotkey extension (search for autohotkey).  You can also use an older editor called SciTE4AutoHotkey found at http://fincs.ahk4.net/scite4ahk/.  For this tutorial I will use that.
+For an editor you can use VS Code with the autohotkey extension (see above).
 
 Ok, enough introduction.  Let’s look at what we’re trying to accomplish.  In order to automate a process, you have to first clearly understand and document the manual steps needed for that process.  Once you have that, it’s a matter of choosing a tool that can perform those manual steps for you.
 
