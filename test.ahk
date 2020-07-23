@@ -27,9 +27,9 @@ while (pageLoaded = false)
 	{
 		pageLoaded := true
 		MouseClick, left, X+40, Y+40, 2
-		Send, julianai213
+		Send, ahktest
 		Send, {Tab}
-		Send, june242006
+		Send, test123
 		Send, {Tab 2}
 		Send, {Enter}
 	}
